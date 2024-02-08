@@ -1,0 +1,3 @@
+git blame <file_name> - This coommand is used to see the code added by indiviual it will give the name,email and time on which 
+code is added or removed.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
