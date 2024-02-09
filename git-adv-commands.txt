@@ -12,4 +12,14 @@ Reverting a commit in git
 // This will create a new commit and this commit will be the opposite of what exactly you did in the reverted commit
 (for eg. if you removed something it will added and vice vesa)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Pushing Revert on remote directroy 
 
+1) git reset  --hard [SHA ID]
+
+To push this change use the command
+
+2) git push -f
+// Thia command will set main branch upto the commit you entered.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
