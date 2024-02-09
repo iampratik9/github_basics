@@ -1,7 +1,7 @@
 git blame <file_name> - This coommand is used to see the code added by indiviual it will give the name,email and time
  on which 
 code is added or removed.
------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Reverting a commit in git
 **1) Reverting to previous branches - git reset --hard [SHA ID]
 
@@ -12,8 +12,8 @@ Reverting a commit in git
 // This will create a new commit and this commit will be the opposite of what exactly you did in the reverted commit
 (for eg. if you removed something it will added and vice vesa)
 
--------------------------------------------------------------------------------------------------------------------------------------------------
-Pushing Revert on remote directroy 
+-------------------------------------------------------------------------------------------------------------------------------
+Pushing Revert on remote directro
 
 1) git reset  --hard [SHA ID]
 
@@ -22,4 +22,4 @@ To push this change use the command
 2) git push -f
 // Thia command will set main branch upto the commit you entered.
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
