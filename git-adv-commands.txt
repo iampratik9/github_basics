@@ -47,3 +47,12 @@ GIT Branching and Merging
 5) git merge origin/branch_name (Using Git Bash)
 // This will merge the branch with newly added branch
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+
+STASH Concept 
+
+//Suppose anyone has changed the code in remote server and you want to add that change in local file but if you 
+pull then it will show  unstaged changes . To solve this problem use -
+1) You can use git add . and then commit 
+
+2) git stash 
+// This command will create a temporary  file which will be stored in stack.
