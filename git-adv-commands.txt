@@ -3,15 +3,11 @@ Information of the repo
 1)git blame <file_name> 
 // This coommand is used to see the code added by indiviual it will give the name,email and timeon which 
 code is added or removed.
-<<<<<<< HEAD
 
 2) git log --oneline 
 //This will give the commits in one line.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-=======
-----------------------------------------------------------------------------------------------------------------------------
->>>>>>> ca84fafcab277972df2d39e6a7cee7f79e0601b1
 Reverting a commit in git
 **1) Reverting to previous branches - git reset --hard [SHA ID]
 
@@ -22,8 +18,8 @@ Reverting a commit in git
 // This will create a new commit and this commit will be the opposite of what exactly you did in the reverted commit
 (for eg. if you removed something it will added and vice vesa)
 
--------------------------------------------------------------------------------------------------------------------------------
-Pushing Revert on remote directro
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Pushing Revert on remote directroy 
 
 1) git reset  --hard [SHA ID]
 
@@ -32,7 +28,6 @@ To push this change use the command
 2) git push -f
 // Thia command will set main branch upto the commit you entered.
 
-<<<<<<< HEAD
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 GIT Branching and Merging
@@ -43,7 +38,7 @@ GIT Branching and Merging
 2)git branch "branch_name"
 //This command is used to create a new branch
 
-3)
-=======
----------------------------------------------------------------------------------------------------------------------------------
->>>>>>> ca84fafcab277972df2d39e6a7cee7f79e0601b1
+3)git branch --delete <branch_name>
+//This command is used to delete a existing branch 
+
+4)
