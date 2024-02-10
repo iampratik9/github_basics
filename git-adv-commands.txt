@@ -44,3 +44,6 @@ GIT Branching and Merging
 4)git push --set-upstream origin <branch_name>
 // This is to push the local branch to the remote server.
 
+5) git merge origin/branch_name (Using Git Bash)
+// This will merge the branch with newly added branch
+
