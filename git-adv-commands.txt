@@ -1,6 +1,12 @@
-git blame <file_name> - This coommand is used to see the code added by indiviual it will give the name,email and time
- on which 
+Information of the repo
+
+1)git blame <file_name> 
+// This coommand is used to see the code added by indiviual it will give the name,email and timeon which 
 code is added or removed.
+
+2) git log --oneline 
+//This will give the commits in one line.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Reverting a commit in git
 **1) Reverting to previous branches - git reset --hard [SHA ID]
@@ -23,3 +29,13 @@ To push this change use the command
 // Thia command will set main branch upto the commit you entered.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
+
+GIT Branching and Merging
+
+1)git branch 
+//This is command is used to see the number of branches.
+
+2)git branch "branch_name"
+//This command is used to create a new branch
+
+3)
