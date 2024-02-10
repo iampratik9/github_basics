@@ -41,4 +41,6 @@ GIT Branching and Merging
 3)git branch --delete <branch_name>
 //This command is used to delete a existing branch 
 
-4)
+4)git push --set-upstream origin <branch_name>
+// This is to push the local branch to the remote server.
+
