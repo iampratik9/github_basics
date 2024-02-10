@@ -56,3 +56,5 @@ pull then it will show  unstaged changes . To solve this problem use -
 
 2) git stash 
 // This command will create a temporary  file which will be stored in stack.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
