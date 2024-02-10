@@ -46,4 +46,4 @@ GIT Branching and Merging
 
 5) git merge origin/branch_name (Using Git Bash)
 // This will merge the branch with newly added branch
-
+---------------------------------------------------------------------------------------------------------------------------------------------------
